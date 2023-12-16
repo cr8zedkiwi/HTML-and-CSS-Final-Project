@@ -1,0 +1,94 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>World Of Cats</title>
+<script src="https://kit.fontawesome.com/5d7b6f348d.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/myFinalCSS.css" media="all">
+<link rel="stylesheet" href="css/myFinalCSSPrint.css" media="print">
+<script>
+  function applyChanges(){
+    document.body.style.background = document.getElementById('backgroundColor').value;
+    document.body.style.color = document.getElementById('textColor').value;
+  }
+</script>
+</head>
+<body>
+    <main class="grid-container">
+<header class="top">
+  <br>
+  <h1>Funny Cat Videos!!!</h1>
+  <br>
+</header>
+<article class="menu">
+    <div class="icon-bar">
+		<a href="https://pixabay.com/photos/kitty-playful-flowers-wildflowers-2948404/"><i class="fa-solid fa-cat fa-beat"></i></a>
+		<a href="https://pixabay.com/photos/cat-kitten-pet-animal-mammal-fur-4558651/"><i class="fa-solid fa-cat fa-spin"></i></a>
+		<a href="https://pixabay.com/photos/kitten-basket-pet-adorable-animal-1845789/"><i class="fa-solid fa-cat fa-flip"></i></a>
+	</div>
+</article>
+<article class="middle">
+    <section>
+  <section id="Purring">
+    <nav class="right">
+    <h2>The magical sounds of cats!</h2>
+    <h3>Embedded Sounds of Cat Purring:</h3>
+    <audio controls>
+      <source src="media/catPurring.mp3" type="audio/mp3">
+      <source src="media/catPurring.aac.aac" type="audio/aac">
+      <source src="media/catPurring.wav.wav" type="audio/wav">
+      Your browser does not support the audio element"</audio>
+    </nav>
+    <div>
+    <h3>Sound Links To Cat's Meowing:</h3>
+    <details>
+      <summary>Cat Meowing</summary>
+      <ul>
+      <li><a href="media/catMeow.wav.wav">(wav)</a></li>
+      <li><a href="media/catMeow.mp3.mp3">(mp3)</a></li>
+      <li><a href="media/catMeow.aac.aac">(aac)</a></li>
+      </ul>
+      </details>
+    <IMG SRC="media/cat.gif.gif">
+    </div>
+  </section>
+  </section>
+  <section>
+    <h2>Check out these funny cats!!!</h2>
+    <h3>Video Links: </h3>
+    <details>
+      <summary>Cat's Being Silly!</summary>
+    <ul>
+      <li><a href="https://www.youtube.com/shorts/Po098TRdOn4">Want A Good Laugh?</a></li>
+      </ul>
+      </details>
+      <details>
+        <summary>Cat Club!</summary>
+        <ul>
+      <li><a href="https://www.youtube.com/shorts/tY4FtT2whtc">It's A Party!!!</a></li>
+      </ul>
+      </details>
+      <details>
+        <summary>Baby Kitten Meowing!</summary>
+        <ul>
+      <li><a href="https://www.youtube.com/shorts/upnNSyCQrtg">This Kitten Is Adorable!!!</a></li>
+    </ul>
+  </details>
+    <h3>Kitty Chaos!!!!!</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VeFMdVIFsgs?si=9MHKsFV_0XmKNkAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </section>
+  <section class="bottom">
+    <img src="media/cat1.jpg" alt="cat 1" style="width:25%;"/>
+    <img src="media/cat2.jpg" alt="cat 2" style="width:25%;"/>
+    <img src="media/cat3.jpg" alt="cat 3" style="width:25%;"/>
+    <img src="media/cat4.jpg" alt="cat 4" style="width:25%;"/>
+  </section>
+</article>
+<footer class="note">
+    <p id = "java">Choose a color to change the background:<input type="color" id="backgroundColor">
+    Select any color to change text:<input type="color" id="textColor">
+    <br>Please click to apply your changes:&nbsp; <button onclick="applyChanges()">APPLY</button></p>
+    <small>&copy; Cameron Lawson November 19, 2023<br>Last Updated December 2, 2023</small>
+</footer>
+</main>
+</body>
+</html>

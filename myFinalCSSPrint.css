@@ -1,0 +1,64 @@
+﻿*{
+    width:100%;
+    font-size:12pt;
+    font-family:sans-serif;
+    background:white;
+    color:black;
+    text-align:left;
+    margin:0px;
+    padding:0px;
+    display:block;
+    top:0%;
+    height:auto;
+    opacity:1;
+    border:none;
+    text-shadow:none;
+    font-weight:normal;
+}
+aside, img, iframe, script, link, nav, title, head{
+    display:none;
+}
+header, footer{
+    box-shadow:none;
+    border:0px solid white;
+}
+summary{
+    margin-top:10px;
+    color:black;
+    font-size:12pt;
+    text-shadow:none;
+}
+a:link, a:visited, a:hover,a:active{
+    color:black;
+    text-shadow:none;
+    display:none;
+    text-decoration:underline;
+}
+p{
+    margin-top:10px;
+}
+
+h1,h2,h3{
+    margin:0px;
+    color:black;
+    font-size:12pt;
+    border:0px solid white;
+    font-weight:300;
+    text-align:left;
+}
+details {
+    margin-top:10px;
+    page-break-inside:avoid;
+}
+input{
+    display:none;
+}
+button{
+    display:none;
+}
+#java{
+    display:none;
+}
+.icon-bar{
+    display:none;
+}

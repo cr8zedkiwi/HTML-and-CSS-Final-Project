@@ -1,0 +1,137 @@
+body {
+    background-color: rgb(175, 85, 0);
+    color: rgb(0, 0, 0);
+    font-size: 14pt;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+article {
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    flex-wrap: wrap;
+        width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+img{
+    float:right;
+}
+header, footer {
+    background-color: rgb(175, 85, 0);
+    border: 7px groove white;
+    border-radius:100%;
+}
+audio, video {
+    margin-left: 20px;
+}
+h1 {
+    text-align: center;
+    text-shadow:1px 1px black;
+    color: orange;
+    font-size: 36pt;
+}
+h2 {
+    text-align: center;
+    text-shadow:1px 1px black;
+    color: orange;
+    font-size: 22pt;
+}
+h3 {
+    color: orange;
+    font-size: 18pt;
+    border-bottom: 1px solid black;
+}
+hr {
+    color: white;
+    height: 6px;
+    opacity: 0.3;
+}
+a {
+    margin-left: 20px;
+}
+a:visited{
+    color:cyan;
+}
+a:link {
+    color: cyan;
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#Purring {
+    background-size: 80%;
+}
+footer{
+    font-size:medium;
+    color:white;
+    width:100%;
+    text-align:center;
+    border:7px groove white;
+    background-color:black;
+}
+
+.icon-bar {
+    width:80%;
+    opacity:.8;
+    background-color: rgb(0, 0, 0);
+    overflow: auto;
+    border:7px groove white;
+    border:center;
+    margin:auto;
+}
+
+.icon-bar a {
+    float: left; 
+    text-align: center;
+    width: 30%; 
+    padding: 12px 0; 
+    transition: all 0.3s ease; 
+    color: white; 
+    font-size: 40px; 
+}
+.icon-bar a:hover {
+    background-color: #000; 
+    color:orange;
+}
+.top{grid-area:t;}
+.note{grid-area:n;}
+.bottom{grid-area:b;}
+.menu{grid-area:m;}
+.left{grid-area:l;}
+.middle{grid-area:mid;}
+.right{grid-area:r;}
+/* Default grid container */
+.grid-container{
+	display:grid;
+	grid-template-rows:max-content;
+	grid-template-areas:
+			't t t t t t'
+			'm m m m m m'
+			'l l mid mid r r'
+			'b b b b b b'
+            'n n n n n n';
+}
+/* Mobile grid container */
+@media (max-width:600px){
+	.grid-container{
+		grid-template-areas:
+				't t t t t t'
+                'm m m m m m'
+				'l l l l l l '
+				'mid mid mid mid mid mid '
+				'r r r r r r '
+				'b b b b b b'
+                'n n n n n n';
+	}
+    .icon-bar a{
+        float:none;
+        padding:12px;
+    }
+}
